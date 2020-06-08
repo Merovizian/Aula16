@@ -15,11 +15,11 @@ lista = lista[:len(lista)-1]
 print(lista,type(lista))
 
 # O primeiro for serve para abstrair uma palavra
-for a in range(0, cont):
-    print(f"A Palavra '{str(lista[a]).upper():^20}' tem as vogais:", end=' ')
+for a in lista:
+    print(f"A Palavra '{(a).upper():^20}' tem as vogais:", end=' ')
 
     # O segundo for é para caçar na palavra abstraída as vogais.
-    for b in range(0, len(lista[a])):
-        if str(lista[a][b]).lower() in 'aeiouéáàèíìãẽĩõ':
-            print(lista[a][b],end=' ')
+    for b in a:
+        if (b).lower() in 'aeiouéáàèíìãẽĩõ':
+            print(b,end=' ')
     print()

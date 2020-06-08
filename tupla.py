@@ -3,7 +3,9 @@ def tuplaint (quantidade):
     Modulo que cria uma Tupla de inteiros com os valores digitados pelo usuário.
     O valor maximo de elementos é definido pela 'quantidade' inserida pelo usuário.
     Não é possível digitar valores que não sejam inteiros.
-    A saída é a tupla criada com os valores digitados: tupla.tuplaint(quantidade)
+    A saída é a tupla criada com os valores digitados:
+
+    tupla.tuplaint(quantidade)
     '''
 
     lista = ''
