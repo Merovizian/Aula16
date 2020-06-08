@@ -7,6 +7,7 @@ while True:
     if (produto.lower()) == 'nao':
         break
     valor = input("Informe o valor do produto: ")
+    valor = valor.replace(',','.')
     lista += produto + ',' + valor + ','
     c += 1
 # Transforma a lista em uma lista de verdade
